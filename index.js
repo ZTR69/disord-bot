@@ -34,6 +34,14 @@ client.on('message', msg => {
   else if (msg.content === `${prefix}love`) {
     msg.channel.send('Ugo prend une potion qui le rend safe pendant 10s \n (malheuresement c son max et non cumulable)');
   }
+  
+    else if (msg.content === `${prefix}celib`) {
+    msg.reply('toi aussi tu es borderline...');
+  }
+
+     else if (msg.content === `${prefix}darius`) {
+    msg.reply('mathieu et maxime attaque couette \n AAAARRRRRRRGGGHHHHHHHHHHHHHHH la map est rasé \n marine a encore débordé');
+  }
 
   else if (msg.content === `${prefix}FINISH HIM`) {
     msg.channel.send('Il lui explose le minou en live discord (-infini) \n#dans la mere a Laurent Bouneau @arturo le roi');
