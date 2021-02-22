@@ -38,6 +38,18 @@ client.on('message', msg => {
     else if (msg.content === `${prefix}celib`) {
     msg.reply('toi aussi tu es borderline...');
   }
+  
+  else if (msg.content === `${prefix}mektoub`) {
+  msg.channel.send('Maxime se fais tenir par les couilles');
+  }
+  
+  else if (msg.content === `qui`) {
+  msg.channel.send('Whaouffff On mange frere');
+  }
+  
+  else if (msg.content === `${prefix}cortex`) {
+  msg.channel.send('Maxime n est toujours pas arabe');
+  }
 
      else if (msg.content === `${prefix}darius`) {
     msg.reply('mathieu et maxime attaque couette \n AAAARRRRRRRGGGHHHHHHHHHHHHHHH la map est rasé \n marine a encore débordé');
