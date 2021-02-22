@@ -33,6 +33,8 @@ client.on('message', msg => {
 
   else if (msg.content === `${prefix}love`) {
     msg.channel.send('Ugo prend une potion qui le rend safe pendant 10s \n (malheuresement c son max et non cumulable)');
+    
+    //salut c'est titouan
   }
   
     else if (msg.content === `${prefix}celib`) {
