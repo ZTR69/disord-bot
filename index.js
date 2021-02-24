@@ -65,6 +65,10 @@ client.on('message', msg => {
   else if (msg.content === `${prefix}s`) {
     msg.reply('Ta gueule ou je ramenne Fabrice Quarteron');
   }
+  
+   else if (msg.content === `${prefix}a`) {
+   msg.reply('le zebre ne peut pas etre raciste');
+   }
 
   else if (msg.member.roles.cache.some(role => role.name === 'omg')) {
     msg.reply('Ta gueule ou je ramenne Fabrice Quarteron')
