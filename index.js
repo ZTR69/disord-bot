@@ -18,42 +18,6 @@ client.on('message', msg => {
   else if (msg.content === `${prefix}heal`) {
     msg.channel.send('mathieu bouffe une chatte (+50PV)');
   }
-    else if (msg.content === `${prefix}sword`) {
-    msg.channel.send('                ,)(8)).
-              (()))())()).
-             (()"````"::= )
-             )| _    _ ::= )
-            (()(o)/ (o) ?(/)
-             )(::c ::.( :(/)
-            (( \ .__. ;,/(/)
-              ) `.___,'/ (/)
-                 |    | (/)
-               _.'    ,\(/)__
-           _.-"   ` u    (/) ".
-         ,"               ^    \
-        /                      |
-        |           .      `.  |
-        |   /,'   _  `.'   _ `.|
-        |   ||   (o)  |   (o) ||
-        |   |\        ;       /)
-        (   \ `.,___,' `.,__,'/
-         \   \ |           | /
-          \   `;           |/
-           `. /            |
-      cjr    Y             |
-      + cj  /          (   |
-           /               ;
-          /               /
-         ;       ` .    ,'(
-         |          \##'   \
-         :           Y      \
-          \           \      \
-           \           \      \
-            \           \      \
-
-------------------------------------------------
-
-}
   
   else if (msg.content === `${prefix}timide`) {
     msg.channel.send('Ryan se prend encore une balle perdue (-50PV)');
