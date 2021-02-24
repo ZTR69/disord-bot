@@ -75,7 +75,7 @@ client.on('message', msg => {
     msg.reply('toi aussi tu es borderline...');
   }
   
-  else if (msg.content === `${prefix}mektoub`) {
+  else if (msg.content === `${prefix}algerien`) {
   msg.channel.send('Maxime se fais tenir par les couilles');
   }
   
